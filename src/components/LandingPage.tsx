@@ -422,7 +422,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({
                 {/* Ambient Photo Strip Header inside Preview */}
                 <div className="relative h-36 sm:h-44 rounded-xl overflow-hidden mb-5 border border-white/10">
                   <ImageWithFallback
-                    src="/src/assets/images/hero_fintech_desk_1795407186677.jpg"
+                    src={`${import.meta.env.BASE_URL}src/assets/images/hero_fintech_desk_1795407186677.jpg`}
                     alt="Modern financial analytics desk with laptop and smartphone"
                     className="w-full h-full object-cover"
                   />
@@ -535,7 +535,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({
             >
               <div className="relative h-64 sm:h-72 overflow-hidden">
                 <ImageWithFallback
-                  src="/src/assets/images/upi_contactless_payment_1795407186798.jpg"
+                  src={`${import.meta.env.BASE_URL}src/assets/images/upi_contactless_payment_1795407186798.jpg`}
                   alt="Contactless Indian UPI QR payment at a cafe counter"
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
                 />
@@ -565,7 +565,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({
             >
               <div className="relative h-64 sm:h-72 overflow-hidden">
                 <ImageWithFallback
-                  src="/src/assets/images/financial_planning_workspace_1795407187757.jpg"
+                  src={`${import.meta.env.BASE_URL}src/assets/images/financial_planning_workspace_1795407187757.jpg`}
                   alt="Minimalist wealth planning journal, smartphone, and metallic debit card"
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
                 />
@@ -686,7 +686,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="relative rounded-3xl overflow-hidden border border-white/12 bg-[#101827]">
             <ImageWithFallback
-              src="/src/assets/images/savings_architecture_cta_1795407187239.jpg"
+              src={`${import.meta.env.BASE_URL}src/assets/images/savings_architecture_cta_1795407187239.jpg`}
               alt="Modern architectural glass pavilion overlooking evening city lights"
               className="absolute inset-0 w-full h-full object-cover opacity-40"
             />
